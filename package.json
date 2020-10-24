@@ -1,0 +1,31 @@
+{
+    "name": "@crocme10/markdown-it-mathjax",
+    "version": "0.1.0",
+    "description": "Math support for markdown-it with MathJax",
+    "main": "index.js",
+    "scripts": {
+        "watch": "watchify browser.js -o bundle.js -v",
+        "test": "node test/all.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com:crocme10/markdown-it-mathjax.git"
+    },
+    "keywords": [
+        "markdown",
+        "MathJax",
+        "math",
+        "markdown-it-plugin",
+        "markdown-it"
+    ],
+    "author": "Matthieu Paindavoine",
+    "license": "MIT",
+    "dependencies": {
+        "mathjax-full": "^3.1.2"
+    },
+    "devDependencies": {
+        "markdown-it": "11.0.0",
+        "markdown-it-testgen": "0.1.6",
+        "tape": "5.0.1"
+    }
+}
