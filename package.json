@@ -1,34 +1,33 @@
 {
-    "name": "@crocme10/markdown-it-mathjax",
-    "version": "0.1.0",
-    "description": "Math support for markdown-it with MathJax",
-    "main": "index.js",
-    "scripts": {
-        "watch": "watchify browser.js -o bundle.js -v",
-        "serve": "serve",
-        "test": "node test/all.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com:crocme10/markdown-it-mathjax.git"
-    },
-    "keywords": [
-        "markdown",
-        "MathJax",
-        "math",
-        "markdown-it-plugin",
-        "markdown-it"
-    ],
-    "author": "Matthieu Paindavoine",
-    "license": "MIT",
-    "dependencies": {
-        "mathjax-full": "^3.1.2",
-        "serve": "^11.3.2",
-        "watchify": "^3.11.1"
-    },
-    "devDependencies": {
-        "markdown-it": "11.0.0",
-        "markdown-it-testgen": "0.1.6",
-        "tape": "5.0.1"
-    }
+  "name": "@area403/markdown-it-mathjax",
+  "version": "1.0.0",
+  "description": "markdown it plugin for mathjax",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/all.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crocme10/markdown-it-mathjax.git"
+  },
+  "keywords": [
+    "markdown",
+    "markdown-it",
+    "markdown-it-plugin",
+    "mathjax"
+  ],
+  "author": "Matthieu Paindavoine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crocme10/markdown-it-mathjax/issues"
+  },
+  "homepage": "https://github.com/crocme10/markdown-it-mathjax#readme",
+  "dependencies": {
+    "mathjax-full": "^3.1.2"
+  },
+  "devDependencies": {
+    "markdown-it": "^12.0.2",
+    "markdown-it-testgen": "^0.1.6",
+    "tape": "^5.0.1"
+  }
 }

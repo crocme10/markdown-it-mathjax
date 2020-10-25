@@ -4,17 +4,9 @@ markdown-it-katex
 
 Adapted for mathjax
 
-# markdown-it-katex
+# markdown-it-mathjax
 
 Add Math to your Markdown
-
-[![Build Status](https://travis-ci.org/iktakahiro/markdown-it-katex.svg?branch=master)](https://travis-ci.org/iktakahiro/markdown-it-katex)
-
-[KaTeX](https://github.com/Khan/KaTeX) is a faster alternative to MathJax. This plugin makes it easy to support in your markdown.
-
-Need convincing?
-
-* Check out the comparative benchmark: [KaTeX vs MathJax](https://jsperf.com/katex-vs-mathjax/42)
 
 ## Usage
 
@@ -27,14 +19,14 @@ npm install markdown-it
 Install the plugin
 
 ```bash
-npm install @iktakahiro/markdown-it-katex
+npm install @area403/markdown-it-mathjax
 ```
 
 Use it in your javascript
 
 ```javascript
 var md = require('markdown-it')(),
-    mk = require('@iktakahiro/markdown-it-katex');
+    mk = require('@area403/markdown-it-mathjax');
 
 md.use(mk);
 
